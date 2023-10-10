@@ -26,9 +26,9 @@ document.addEventListener("DOMContentLoaded", function () {
     rightExpand.style.display = "block";
   });
   leftExpand.addEventListener("click", function () {
-    window.location.href = "/"; // 先假定首頁為跳往廣告的頁面
+    window.location.href = "https://suzuru0611.github.io/vmfive-aorb/"; // 先假定首頁為跳往廣告的頁面
   });
   rightExpand.addEventListener("click", function () {
-    window.location.href = "/"; // 先假定首頁為跳往廣告的頁面
+    window.location.href = "https://suzuru0611.github.io/vmfive-aorb/"; // 先假定首頁為跳往廣告的頁面
   });
 });
