@@ -1,23 +1,27 @@
+// 廣告關閉功能
 function closeAdContainer() {
-  const adContainer = document.getElementById("adContainer");
+  var adContainer = document.getElementById("adContainer");
   adContainer.style.display = "none";
 }
 
+// 關閉左滿版畫面
 function closeLeftExpand() {
-  const leftExpand = document.getElementById("leftExpand");
-  leftExpand.style.animation = "shrinkAnimation 0.5s forwards "; // 將這一行添加到函數中
+  var leftExpand = document.getElementById("leftExpand");
+  leftExpand.style.animation = "shrinkAnimation 0.5s forwards ";
 }
 
+// 關閉右滿版畫面
 function closeRightExpand() {
-  const rightExpand = document.getElementById("rightExpand");
+  var rightExpand = document.getElementById("rightExpand");
   rightExpand.style.animation = "shrinkAnimation 0.5s forwards";
 }
 
+// 滿版畫面與跳轉廣告連結
 document.addEventListener("DOMContentLoaded", function () {
-  const leftContainer = document.querySelector(".left");
-  const leftExpand = document.querySelector(".left-expand");
-  const rightContainer = document.querySelector(".right");
-  const rightExpand = document.querySelector(".right-expand");
+  var leftContainer = document.querySelector(".left");
+  var leftExpand = document.querySelector("#left-expand");
+  var rightContainer = document.querySelector(".right");
+  var rightExpand = document.querySelector("#right-expand");
 
   leftContainer.addEventListener("click", function () {
     leftExpand.style.display = "block";
