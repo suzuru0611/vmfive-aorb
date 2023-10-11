@@ -1,18 +1,18 @@
 // 廣告關閉功能
 function closeAdContainer() {
-  var adContainer = document.getElementById("adContainer");
+  var adContainer = document.getElementById("ad-container");
   adContainer.style.display = "none";
 }
 
 // 關閉左滿版畫面
 function closeLeftExpand() {
-  var leftExpand = document.getElementById("leftExpand");
+  var leftExpand = document.getElementById("left-expand");
   leftExpand.style.animation = "shrinkAnimation 0.5s forwards ";
 }
 
 // 關閉右滿版畫面
 function closeRightExpand() {
-  var rightExpand = document.getElementById("rightExpand");
+  var rightExpand = document.getElementById("right-expand");
   rightExpand.style.animation = "shrinkAnimation 0.5s forwards";
 }
 

@@ -127,7 +127,7 @@
   height: 50px;
   animation: none;
 }
-.right-expand {
+#right-expand {
   position: fixed;
   bottom: 0;
   right: 0;
@@ -141,7 +141,7 @@
   display: none;
   animation: expandAnimation 0.3s;
 }
-.right-expand img {
+#right-expand img {
   position: absolute;
   right: 10px;
   top: 10px;
